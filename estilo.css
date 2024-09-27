@@ -1,0 +1,86 @@
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+/p {
+  background: lightblue;
+}
+
+a {
+  text-decoration: none;
+  background: darkblue;
+  color: white;
+  display: inline-block;
+} 
+/*diferença entre o rem e o px*/
+ .px{
+  font-size: 10px;
+  padding: 15px 10px;
+}
+
+.rem{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+
+} 
+/* explicação do em */
+ /section {
+  font-size: 20%;
+}
+
+.px {
+  font-size: 10px;
+}
+
+.em {
+  font-size: 2em;
+}
+
+.rem {
+  font-size: 2rem;
+}  
+
+/* explicação de vw e vh */
+body {
+
+    margin: 0px;
+  }
+  
+  .px {
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+     height: 20%; 
+  
+   } 
+  div{
+    background-color: red;
+    width: 100vw;
+  } 
+   section {
+    width: 200px;
+    background-color: tomato;
+   }
+  
+   p {
+    font-size: 50px;
+    font-family: Georgia, Times, serif, sans-serif;
+    font-weight: 90;
+    font-style: italic;
+    line-height: 9px;
+    text-decoration: none;
+    /* text-transform: lowercase; */
+    /* text-indent: 40px; */
+    text-align: justify; 
+    letter-spacing: 3px;
+    text-shadow: 20px 20px 5px rgb(134, 132, 132);
+   } 
+ div{
+    width: 50vw;
+    height: 100vh;
+    background-color: aqua;
+  } 
+  
